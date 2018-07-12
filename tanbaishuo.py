@@ -147,7 +147,7 @@ def post(uid,s):
                 'gender':'0',
                 'client_version':'0',
                 'tinyid':uid,
-                'bkn':'1090067014'
+                'bkn':'344613249'
                             }
     #datas = urllib.parse.urlencode(postData).encode(encoding='UTF-8')
     response = requests.post(PostUrl,headers=headers,data=postData,cookies=cookie,proxies =session.proxies,timeout=10)
